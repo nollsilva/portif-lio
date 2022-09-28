@@ -1,6 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&display=swap');
 
-:root{
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
+}
+            /* Color Theme Swatches in Hex */
+            /* .Natureza-1-hex { color: #6393A6; }
+            .Natureza-2-hex { color: #BF785E; }
+            .Natureza-3-hex { color: #F2CBBD; }
+            .Natureza-4-hex { color: #A65B4B; }
+            .Natureza-5-hex { color: #733B36; }
+            
+     
+            .Natureza-1-rgba { color: rgba(99, 146, 165, 1); }
+            .Natureza-2-rgba { color: rgba(191, 119, 93, 1); }
+            .Natureza-3-rgba { color: rgba(242, 203, 188, 1); }
+            .Natureza-4-rgba { color: rgba(165, 91, 74, 1); }
+            .Natureza-5-rgba { color: rgba(114, 59, 53, 1); }
+            
+       
+            .Natureza-1-hsla { color: hsla(196, 27, 52, 1); }
+            .Natureza-2-hsla { color: hsla(16, 43, 55, 1); }
+            .Natureza-3-hsla { color: hsla(16, 67, 84, 1); }
+            .Natureza-4-hsla { color: hsla(11, 37, 47, 1); }
+            .Natureza-5-hsla { color: hsla(5, 36, 33, 1); } */
+body{
+    background-color: rgba(242, 203, 188, .5);
+    
+}
+
+.header{
+    text-decoration: none;
+    background: rgba(191, 119, 93, .3);
+    width: 100%;
+}
+
+.nav.justify-content-end{
+    background-color: #F2CBBD;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.nav-link{
+    
+    height: 50px;
+    color: #FFF !important;
+}
+.nav-link.active {
+    color: #6393A6 !important;
+}
+
+
+ .nav-link:hover{
+    color: #6393A6  !important;
+}
+.list-unstyled{
+    color: #733B36;
+    margin-top: 30%;
+    margin-bottom: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn.btn-primary{
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+
+
+.container.text-center{
+    margin-top: 60px;
+    width: 60%;
+
+}
+
+.col h1{
+    margin: 40px;
+    color: #733B36;
+    
+}
+
+.container.projetos{
+    margin-top: 80px;
+
+}
+
+.container.projetos h1{
+    color: #733B36;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 80px;
+    background: rgba(191, 119, 93, .3);
+    margin-left: 10%;
+}
+
+.card a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color: #733B36;
+}
+
+.button:hover{
+    color: #6393A6 !important;
+}
+
+.footer{
+    height: 5rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.footer p{
+    padding: 18px 0 0 20px;
+    font-size: 15px;
+}
+
+.icons{
+    color: #733B36;
+}
+
+.icons:hover{
+    color: #6393A6 !important;
+}
+
+.socias{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.socias a{
+    text-decoration: none;
 }
